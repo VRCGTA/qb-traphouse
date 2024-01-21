@@ -5,7 +5,7 @@ Config = Config or {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
 Config.MinZOffset = 40
-Config.TakeoverPrice = 2000
+Config.TakeoverPrice = 10000
 Config.TrapHouses = {
     [1] = {
         coords = {
@@ -41,7 +41,7 @@ Config.TrapHouses = {
             }
         },
         keyholders = {},
-        pincode = 1234,
+        pincode = 4649,
         inventory = {},
         opened = false,
         takingover = false,
@@ -125,14 +125,19 @@ Config.AllowedItems = {
         wait = 2000,
         reward = 180,
     },
-    ["handcuffs"] = {
-        name = "handcuffs",
-        wait = 2000,
-        reward = 400,
-    },
     ["10kgoldchain"] = {
         name = "10kgoldchain",
         wait = 10000,
         reward = 3000,
     },
+    ['goldbar'] = {
+        name = "goldbar",
+        wait = 10000,
+        reward = 1000,
+    },
+    ['diamond'] = {
+        name = "diamond",
+        wait = 10000,
+        reward = 1000,
+    }
 }

@@ -25,7 +25,7 @@ local Translations = {
         multikeys = "~b~/multikeys~w~ [id] - To Give Keys",
         take_cash = "~b~E~w~ - Take Cash (~g~$%{value}~w~)",
         inventory = "~b~H~w~ - View Inventory",
-        take_over = "~b~E~w~ - Take Over (~g~$5000~w~)",
+        take_over = "~b~E~w~ - Take Over (~g~$10000~w~)",
         leave = "~b~E~w~ - Leave Traphouse",
     },
     targetInfo = {
