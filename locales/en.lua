@@ -39,7 +39,7 @@ local Translations = {
         multikeys = "Give Keys (use /multikey [id])",
         take_cash = "Take Cash ($%{value})",
         inventory = "View Inventory",
-        take_over = "Take Over ($5000)",
+        take_over = "Take Over ($10000)",
         leave = "Leave Traphouse",
         close_menu = "⬅ Close Menu",
     }
